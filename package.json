@@ -1,0 +1,35 @@
+{
+  "name": "Eventify",
+  "version": "0.1.0",
+  "description": "Simple event library",
+  "author": "Jesper Lindstrøm Nielsen <me@jstroem.com>",
+  "url": "https://github.com/lindstroem/eventify",
+  "keywords": [
+      "event",
+      "eventify",
+      "events",
+      "trigger"
+  ],
+  "bugs": {
+      "url": "https://github.com/lindstroem/eventify/issues"
+  },
+  "licenses": [],
+  "repository":
+  {
+      "type": "git",
+      "url": "git://github.com/lindstroem/eventify.git"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "1.0.x",
+    "chai": "1.4.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "./eventify.js"
+}
