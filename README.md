@@ -39,4 +39,4 @@ Removes every event listeners from the hole object.
 
 
 ###Why?
-The library was build during my [https://github.com/lindstroem/FileTransfer](FileTransfer project)
+The library was build during my [FileTransfer project](https://github.com/lindstroem/FileTransfer)
