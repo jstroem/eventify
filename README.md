@@ -11,25 +11,32 @@ Simple and very lightweight event API build from inspiration from jQuery's event
 
 this will give the object following methods
 
-* off (and unbind)
-	`obj.off('event'[, func])`
-	Removes every listeners for that event or only the specific listener bounded to the function `func` given
+###off (and unbind)
+	obj.off('event'[, func])
 
-* on (and bind)
-	`obj.on('event', function(){ .. }`
-	Here can arguments get passed along from the trigger calls
+Removes every listeners for that event or only the specific listener bounded to the function `func` given
 
-* trigger
-	`obj.trigger('event'[, [arguments*]])`
-	triggers every function how is listening for that event. if arguments is given these are passed along
+###on (and bind)
+	obj.on('event', function(){ .. }
+	
+Here can arguments get passed along from the trigger calls
 
-* one
-	`obj.one('event', function(){ .. }`
-	Listens for an event but first time it is fired the event listener will be unbound.
+###trigger
+	obj.trigger('event'[, [arguments*]])
+
+triggers every function how is listening for that event. if arguments is given these are passed along
+
+###one
+	obj.one('event', function(){ .. }
+	
+Listens for an event but first time it is fired the event listener will be unbound.
 
 
-* unbindAll
-	`obj.unbindAll()`
-	Removes every event listeners from the hole object.
+###unbindAll
+	obj.unbindAll()
 
-All with the same functions known from jQuery.
+Removes every event listeners from the hole object.
+
+
+###Why?
+The library was build during my [https://github.com/lindstroem/FileTransfer](FileTransfer project)
